@@ -1,0 +1,22 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #111;
+}
+input {
+  width: 50%;
+  height: 30px;
+  margin: auto;
+  border: 2px solid rgb(43, 48, 116);
+}
+h6 {
+  font-size: 2em;
+}
+
+@media screen and (min-width: 1000px) {
+  input {
+    width: 30%;
+  }
+}
